@@ -33,7 +33,7 @@ export default function Product({ product }) {
               ${product.price}
             </h1>
             <button
-              className="mt-5 rounded-md border border-transparent bg-green-600 px-4 py-3 font-medium text-white shadow-sm hover:bg-orange-400 sm:px-8"
+              className="mt-5 rounded-md border border-transparent bg-green-600 px-4 py-3 font-medium text-white shadow-sm hover:bg-green-400 sm:px-8"
               onClick={() => checkout(product.id)}
             >
               Checkout
